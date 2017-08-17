@@ -1,0 +1,58 @@
+{
+  "name": "bidi-map",
+  "version": "0.1.0",
+  "description": "A library that extends native ES6 Map to bi-directional map.",
+  "keywords": [
+    "bidirectional",
+    "bi-directional",
+    "bidi",
+    "bi",
+    "directional",
+    "map",
+    "es6",
+    "reverse",
+    "reverse-map",
+    "reversemap",
+    "exists",
+    "getKeyOf",
+    "getKeysOf",
+    "key",
+    "value",
+    "keys"
+  ],
+  "main": "lib/bidi-map.js",
+  "homepage": "http://www.remotelib.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moshest/bidi-map.git"
+  },
+  "bugs": "https://github.com/moshest/bidi-map/issues",
+  "scripts": {
+    "test": "mocha",
+    "build": "npm run babel && npm run docs",
+    "babel": "babel src/bidi-map.js --out-file lib/bidi-map.js",
+    "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md",
+    "precommit": "lint-staged",
+    "prepush": "npm test"
+  },
+  "author": "Moshe Simantov <hi@moshesimantov.com> (http://www.moshesimantov.com)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-import-resolver-node": "^0.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "husky": "^0.14.3",
+    "jsdoc-to-markdown": "^3.0.0",
+    "mocha": "^3.0.0",
+    "prettier": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=6.11"
+  }
+}
