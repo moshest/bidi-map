@@ -1,7 +1,8 @@
 language: node_js
 install:
-  - npm install -g codecov
+  - npm install
   - npm run build
+  - npm install -g codecov
 script:
   - npm cover
   - codecov
