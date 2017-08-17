@@ -1,6 +1,7 @@
 [![view on npm](http://img.shields.io/npm/v/bidi-map.svg)](https://www.npmjs.org/package/bidi-map)
 [![Build Status](https://travis-ci.org/moshest/bidi-map.svg?branch=master)](https://travis-ci.org/moshest/bidi-map)
 [![Dependency Status](https://david-dm.org/moshest/bidi-map.svg)](https://david-dm.org/moshest/bidi-map)
+[![codecov](https://codecov.io/gh/moshest/bidi-map/branch/master/graph/badge.svg)](https://codecov.io/gh/moshest/bidi-map)
 [![npm license](https://img.shields.io/npm/l/bidi-map.svg)](LICENSE)
 
 # Bidi-map
