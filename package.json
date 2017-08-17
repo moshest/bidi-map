@@ -20,7 +20,7 @@
     "value",
     "keys"
   ],
-  "main": "lib/bidi-map.js",
+  "main": "./lib/bidi-map.js",
   "homepage": "http://www.remotelib.com",
   "repository": {
     "type": "git",
