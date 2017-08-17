@@ -15,7 +15,7 @@
  */
 
 import assert from 'assert';
-import BidiMap from '..';
+import BidiMap from '../';
 
 const { describe, it } = global;
 
