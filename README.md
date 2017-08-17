@@ -1,3 +1,9 @@
+[![view on npm](http://img.shields.io/npm/v/bidi-map.svg)](https://www.npmjs.org/package/bidi-map)
+[![npm module downloads](http://img.shields.io/npm/dt/array-tools.svg)](https://www.npmjs.org/package/array-tools)
+[![Build Status](https://travis-ci.org/moshest/bidi-map.svg?branch=master)](https://travis-ci.org/moshest/bidi-map)
+[![Dependency Status](https://david-dm.org/moshest/bidi-map.svg)](https://david-dm.org/moshest/bidi-map)
+[![npm](https://img.shields.io/npm/l/bidi-map.svg)](LICENSE)
+
 # Bidi-map
 A library that extends native
 [ES6 Map](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Map)
