@@ -29,7 +29,8 @@
   "bugs": "https://github.com/moshest/bidi-map/issues",
   "scripts": {
     "test": "mocha",
-    "build": "npm run babel && npm run docs",
+    "clean": "rm -rf lib && rm README.md",
+    "build": "mkdir -p lib && npm run babel && npm run docs",
     "babel": "babel src/bidi-map.js --out-file lib/bidi-map.js",
     "docs": "jsdoc2md -t jsdoc2md/README.hbs lib/*.js > README.md",
     "precommit": "lint-staged",
