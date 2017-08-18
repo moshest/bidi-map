@@ -18,19 +18,22 @@ npm install bidi-map
 ```js
 const BidiMap = require('bidi-map');
 
-const bidiMap = new BidiMap([[1, 'test'], ['foo', 'bar']]);
+const bidiMap = new BidiMap([
+  [1, 'test'],
+  ['foo', 'bar'],
+]);
 
-assert(bidiMap instanceof BidiMap);
-assert(bidiMap instanceof Map);
+bidiMap instanceof BidiMap; // true
+bidiMap instanceof Map; // true
 
-assert.equal(bidiMap.get(1), 'test');
-assert.equal(bidiMap.has('foo'), true);
-assert.equal(bidiMap.exists('bar'), true);
-assert.equal(bidiMap.getKeyOf('test'), 1);
+bidiMap.get(1); // "test"
+bidiMap.has('foo'); // true
+bidiMap.exists('bar'); // true
+bidiMap.getKeyOf('test'); // 1
 
 const key = Symbol('unique');
 bidiMap.set(key, 'test');
-assert.deepEqual(bidiMap.getKeysOf('test'), [1, key]);
+bidiMap.getKeysOf('test'); // [1, key]
 ```
 
 ## API Reference
