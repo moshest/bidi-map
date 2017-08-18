@@ -20,8 +20,8 @@
     "value",
     "keys"
   ],
-  "main": "./lib/bidi-map.js",
-  "homepage": "http://www.remotelib.com",
+  "main": "./index.js",
+  "module": "./lib/bidi-map.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/moshest/bidi-map.git"
