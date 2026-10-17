@@ -3,11 +3,18 @@
 [![Dependency Status](https://david-dm.org/moshest/bidi-map.svg)](https://david-dm.org/moshest/bidi-map)
 [![codecov](https://codecov.io/gh/moshest/bidi-map/branch/master/graph/badge.svg)](https://codecov.io/gh/moshest/bidi-map)
 [![npm license](https://img.shields.io/npm/l/bidi-map.svg)](LICENSE)
+<a href="https://human0.ai/oss/moshest-bidi-map/badge"><img src="https://human0.ai/oss/badge.svg" alt="Maintained by human0"></a>
 
 # Bidi-map
 A library that extends native
 [ES6 Map](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Map)
 to bi-directional map.
+
+<p align="center">
+  <a href="https://human0.ai/oss/moshest-bidi-map/banner">
+    <img src="https://human0.ai/oss/banner.svg" alt="Maintained by human0">
+  </a>
+</p>
 
 ## Install
 ```
